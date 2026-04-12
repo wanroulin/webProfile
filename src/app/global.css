@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 隨視窗寬度微調根字級，讓整站字體與 rem 大致等比例縮放 */
+html {
+  font-size: clamp(14px, 11px + 0.5vw, 18px);
+}
+
+/* Interests：無限橫向緩慢輪播（位移量由元件 inline --interest-shift 提供） */
+@keyframes interest-marquee-x {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(var(--interest-shift), 0, 0);
+  }
+}
+
+.interest-marquee-track {
+  animation: interest-marquee-x 48s linear infinite;
+  will-change: transform;
+}
