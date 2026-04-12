@@ -4,7 +4,6 @@ import { useLayoutEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const GAP_PX = 12;
-/** 畫面上同時可見的張數（輪播軌道可含更多張，由 marquee 循環） */
 const VISIBLE_COUNT = 5;
 
 const slides = [

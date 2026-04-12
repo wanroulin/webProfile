@@ -125,7 +125,7 @@ export default function AboutSections() {
               <QuoteRow>
                 <div className="flex gap-3">
                   <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2024</span>
-                  <span>數位平台見習展覽《污漬》</span>
+                  <span>數位平台見習展覽《污漬》策展組長</span>
                 </div>
               </QuoteRow>
             </li>
@@ -133,7 +133,7 @@ export default function AboutSections() {
               <QuoteRow>
                 <div className="flex gap-3">
                   <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2024</span>
-                  <span>資訊管理學系系學會秘書部部長</span>
+                  <span>國立政治大學資訊管理學系系學會秘書部部長</span>
                 </div>
               </QuoteRow>
             </li>

@@ -10,7 +10,6 @@ export type ProjectCardProps = {
   description: string;
   imageSrc: string;
   imageAlt?: string;
-  /** 點擊卡片前往的網址（站內路徑或 https:// 外連） */
   href: string;
 };
 
