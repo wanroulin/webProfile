@@ -4,6 +4,10 @@ import "./global.css";
 export const metadata: Metadata = {
   title: "Jou's Profile",
   description: "Jou's Profile",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+    apple: [{ url: "/icon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({

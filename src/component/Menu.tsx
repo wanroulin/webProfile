@@ -17,7 +17,7 @@ const navCardClass =
 
 export default function Menu() {
   return (
-    <div className="mx-auto flex h-full w-full max-w-[min(100%,350px)] flex-col items-center bg-transparent p-[clamp(0.75rem,2vw,1rem)] text-center sm:mx-0 sm:max-w-none sm:w-full">
+    <div className="mx-auto flex min-h-full h-full w-full max-w-[min(100%,350px)] flex-col items-center bg-transparent p-[clamp(0.75rem,2vw,1rem)] text-center sm:mx-0 sm:max-w-none sm:w-full">
       <div className="flex w-full justify-center">
         <div
           className={`relative mt-4 aspect-square shrink-0 overflow-hidden rounded-full bg-gray-200 sm:mt-4 ${AVATAR}`}
@@ -40,7 +40,7 @@ export default function Menu() {
       </div>
       <div className="mt-1 w-full text-[clamp(0.95rem,2.2vw,1.25rem)] text-neutral-700">@leona</div>
       <div className="mt-2 w-full text-[clamp(0.8rem,1.8vw,1rem)] text-neutral-600">
-        NCCU MIS | DCT | ETP
+        NCCU｜MIS X DCT X ETP
       </div>
 
       <div className="mt-5 mb-7 flex w-full flex-wrap justify-center gap-x-4 gap-y-2 text-[clamp(0.8rem,1.6vw,0.95rem)]">

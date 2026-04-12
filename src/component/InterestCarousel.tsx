@@ -36,7 +36,6 @@ export default function InterestCarousel() {
 
   const slideW =
     cw > 0 ? (cw - (VISIBLE_COUNT - 1) * GAP_PX) / VISIBLE_COUNT : 0;
-  /* 從第一張到第二輪第一張起點：每格後都有一個 gap（含第 7 張後接第 1 張複製） */
   const oneSetPx =
     slideW > 0 ? slides.length * (slideW + GAP_PX) : 0;
 
@@ -50,7 +49,7 @@ export default function InterestCarousel() {
           System.out.print(&quot;Draw, Photo, Food, Record, K-pop&quot;);
         </p>
         <p className="text-neutral-600">
-          人生名言：「吃飯不積極，思想有問題。」
+          「擦屁股的最後一下，不是因為你擦乾淨了，而是顏色變淡了，淡到你可以接受了。」  
         </p>
       </header>
 
