@@ -45,16 +45,21 @@ const projects = [
 export default function DesignProjectPage() {
   return (
     <PageShell>
-      <div className="w-full px-4 pb-20 pt-6 sm:px-8 sm:pt-10 lg:px-12">
-        <header className="mb-10 w-full space-y-2">
-          <h1 className="text-3xl font-bold tracking-tight text-neutral-900">
-            UI / UX Design
-          </h1>
-        </header>
-        <div className="grid gap-8 sm:grid-cols-2">
-          {projects.map((p) => (
-            <ProjectCard key={p.title} {...p} />
-          ))}
+      <div className="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:px-8 sm:pt-10">
+        <div className="w-full min-w-0 space-y-16 py-8 lg:py-16">
+          <header className="w-full space-y-4">
+            <h1 className="text-3xl font-bold tracking-tight text-neutral-900">
+              UI / UX Design
+            </h1>
+            <p className="font-mono text-sm text-emerald-800 md:text-base">
+              System.out.print(&quot;UI & UX... Work hard and keep going.&quot;);
+            </p>
+          </header>
+          <div className="grid gap-8 sm:grid-cols-2">
+            {projects.map((p) => (
+              <ProjectCard key={p.title} {...p} />
+            ))}
+          </div>
         </div>
       </div>
     </PageShell>

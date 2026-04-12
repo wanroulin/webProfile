@@ -55,12 +55,14 @@ const hobbyProjectCards = [
 export default function HobbyPage() {
   return (
     <PageShell>
-      <div className="w-full space-y-10 px-4 pb-20 pt-6 sm:px-8 sm:pt-10 lg:px-12">
-        <InterestCarousel />
-        <div className="grid gap-8 sm:grid-cols-2">
-          {hobbyProjectCards.map((p) => (
-            <ProjectCard key={p.title} {...p} />
-          ))}
+      <div className="mx-auto max-w-6xl px-4 pb-16 pt-6 sm:px-8 sm:pt-10">
+        <div className="w-full min-w-0 space-y-16 py-8 lg:py-16">
+          <InterestCarousel />
+          <div className="grid gap-8 sm:grid-cols-2">
+            {hobbyProjectCards.map((p) => (
+              <ProjectCard key={p.title} {...p} />
+            ))}
+          </div>
         </div>
       </div>
     </PageShell>

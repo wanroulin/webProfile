@@ -17,7 +17,7 @@ const navCardClass =
 
 export default function Menu() {
   return (
-    <div className="mx-auto flex min-h-full h-full w-full max-w-[min(100%,350px)] flex-col items-center bg-transparent p-[clamp(0.75rem,2vw,1rem)] text-center sm:mx-0 sm:max-w-none sm:w-full">
+    <div className="mx-auto flex min-h-full h-full w-full max-w-[min(100%,350px)] flex-col items-center bg-transparent p-[clamp(0.75rem,2vw,1rem)] text-center sm:mx-0 sm:max-w-none sm:w-full sm:py-8 lg:py-16">
       <div className="flex w-full justify-center">
         <div
           className={`relative mt-4 aspect-square shrink-0 overflow-hidden rounded-full bg-gray-200 sm:mt-4 ${AVATAR}`}
