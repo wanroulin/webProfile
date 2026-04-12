@@ -38,7 +38,7 @@ const projects = [
     description:
       "整合音樂、蕃茄鐘、每日代辦與甘特圖，時光島嶼讓你用自己的喜好進入心流，完整每一天。",
     imageSrc: "focus_island.png",
-    href: "https://youtu.be/v5co8tIMZ2Y",
+    href: "https://focus-island-2025.vercel.app/",
   },
   
 ];
