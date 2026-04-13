@@ -21,7 +21,7 @@ export default function Home() {
       style={{ backgroundImage: "url('/page_bg.jpeg')" }}
     >
       <aside
-        className="hidden w-[clamp(240px,22vw,350px)] shrink-0 self-stretch overflow-y-auto border-r border-neutral-300/70 bg-cover bg-center bg-no-repeat sm:block sm:min-h-0 sm:h-[100dvh] sm:max-h-[100dvh]"
+        className="hidden w-[clamp(240px,22vw,350px)] shrink-0 self-stretch overflow-y-auto overflow-x-hidden border-r border-neutral-300/70 bg-cover bg-center bg-no-repeat sm:block sm:h-[100dvh] sm:max-h-[100dvh] sm:min-h-0"
         style={{ backgroundImage: "url('/sidebar_bg.jpeg')" }}
       >
         <Menu />

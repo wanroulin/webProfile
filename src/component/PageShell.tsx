@@ -13,7 +13,7 @@ export default function PageShell({
       style={{ backgroundImage: "url('/page_bg.jpeg')" }}
     >
       <aside
-        className="fixed bottom-0 left-0 top-0 z-30 hidden w-[clamp(240px,22vw,350px)] shrink-0 overflow-y-auto border-r border-neutral-300/70 bg-cover bg-center bg-no-repeat sm:block"
+        className="fixed bottom-0 left-0 top-0 z-30 hidden w-[clamp(240px,22vw,350px)] shrink-0 overflow-y-auto overflow-x-hidden border-r border-neutral-300/70 bg-cover bg-center bg-no-repeat sm:block"
         style={{ backgroundImage: "url('/sidebar_bg.jpeg')" }}
       >
         <Menu />
