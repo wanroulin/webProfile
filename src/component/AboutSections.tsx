@@ -16,7 +16,7 @@ function QuoteRow({ children }: { children: React.ReactNode }) {
 
 export default function AboutSections() {
   return (
-    <div className="w-full min-w-0 space-y-16 py-8 lg:py-16">
+    <div className="w-full min-w-0 space-y-16 pt-8 pb-24 lg:pt-16 lg:pb-24">
       <section id="about-intro" className="scroll-mt-24 space-y-4">
         <h1 className="text-3xl font-bold tracking-tight text-neutral-900">
           About Me
@@ -69,7 +69,7 @@ export default function AboutSections() {
               <QuoteRow>
                 <div className="flex gap-3">
                   <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
-                  <span>簡士鎰 HAILAB 研究助理</span>
+                  <span>簡士鎰副教授 HAILAB 研究助理</span>
                 </div>
               </QuoteRow>
             </li>
@@ -109,7 +109,7 @@ export default function AboutSections() {
         </div>
       </section>
 
-      <section id="about-lead" className="scroll-mt-24 pb-24">
+      <section id="about-lead" className="scroll-mt-24">
         <div className="space-y-4">
           <h2 className="text-xl font-semibold text-neutral-900">Lead Experience</h2>
           <ul className="m-0 list-none space-y-4 p-0 text-neutral-700">
@@ -134,6 +134,105 @@ export default function AboutSections() {
                 <div className="flex gap-3">
                   <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2024</span>
                   <span>國立政治大學資訊管理學系系學會秘書部部長</span>
+                </div>
+              </QuoteRow>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about-award" className="scroll-mt-24">
+        <div className="space-y-4">
+          <h2 className="text-xl font-semibold text-neutral-900">Award Experience</h2>
+          <ul className="m-0 list-none space-y-4 p-0 text-neutral-700">
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2026</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>23th 育秀盃創意獎 數位應用組 | 決賽入圍（尚未公佈）</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      SignBank 數位金融手語翻譯系統
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2026</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>5th AI 金融科技創新創意競賽 | 亞軍</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      SignBank 數位金融手語翻譯系統
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>政大資管 111 級畢業發表 | 第一銀行特別獎冠軍</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      SignBank 數位金融手語翻譯系統
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>政大資管 111 級畢業發表 | 下午場冠軍</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      SignBank 數位金融手語翻譯系統
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>政大 114 年 AI 跨域 X 永續創新競賽 | 冠軍</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      SignBank 數位金融手語翻譯系統
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>政大 114 年 AI 跨域研究構想補助計畫 | 通過</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      基於 Mediapipe 與 Blender 進行手語辨識資料增強之方法探討
+                    </span>
+                  </div>
+                </div>
+              </QuoteRow>
+            </li>
+            <li>
+              <QuoteRow>
+                <div className="flex gap-3">
+                  <span className="w-14 shrink-0 font-mono text-xs text-neutral-500">2025</span>
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <span>2025 熊熊幹大事 Web 前端黑客松獎金挑戰賽 | 冠軍</span>
+                    <span className="font-mono text-sm text-neutral-500">
+                      Focus Island 時光島嶼
+                    </span>
+                  </div>
                 </div>
               </QuoteRow>
             </li>
